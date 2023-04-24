@@ -1,5 +1,6 @@
 <template>
     <div class="w-full h-full">
+        <Overlay class="fixed"/>
         <Header />
         <slot />
     </div>

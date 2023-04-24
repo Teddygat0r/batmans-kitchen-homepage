@@ -7,6 +7,10 @@
 </template>
 
 <script setup>
+
+definePageMeta({
+  layout: "home-overlay",
+});
 const posts = [
     {
         title: "fake ctf - no 1",
