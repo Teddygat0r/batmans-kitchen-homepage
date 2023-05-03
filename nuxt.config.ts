@@ -21,4 +21,14 @@ export default defineNuxtConfig({
             ],
         },
     },
+    modules: ["nuxt-api-party"],
+    apiParty: {
+        endpoints: {
+            jsonPlaceholder: {
+                //url: process.env.JSON_PLACEHOLDER_API_BASE_URL!,
+                // Global headers sent with each request
+                url: "https://ctftime.org/api/v1/",
+            },
+        },
+    },
 });

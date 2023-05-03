@@ -1,7 +1,8 @@
 <template>
-    <div class="w-full h-full">
+    <div class="w-full min-h-screen h-full">
         <Header />
         <slot />
+        <Footer/>
     </div>
 </template>
 

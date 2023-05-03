@@ -18,7 +18,7 @@
                 <div class="flex gap-4 my-4">
                     <NuxtLink
                         class="bg-stone-400 text-white px-2 py-1 rounded-lg"
-                        href="#">
+                        to="https://discord.com/invite/u9USAb3PF7" target="_blank" rel="noopener">
                         <div class="flex m-auto">
                             <p class="m-auto">Discord</p> <i class="ri-discord-fill ml-1 m-auto" />
                         </div>
@@ -26,14 +26,14 @@
 
                     <NuxtLink
                         class="bg-stone-400 text-white px-2 py-1 rounded-lg"
-                        href="#">
+                        to="https://www.instagram.com/uw.batmanskitchen/" target="_blank" rel="noopener">
                         <div class="flex m-auto">
                             <p class="m-auto">Instagram</p> <i class="ri-instagram-line ml-1 m-auto" />
                         </div>
                     </NuxtLink>
-                    <NuxtLink
+                    <NuxtLink 
                         class="bg-stone-400 text-white px-2 py-1 rounded-lg"
-                        href="#">
+                        to="https://ctftime.org/team/3135" target="_blank" rel="noopener">
                         <div class="flex m-auto">
                             <p class="m-auto">CTFTime</p>
                         </div>
