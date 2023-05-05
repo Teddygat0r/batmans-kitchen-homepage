@@ -40,7 +40,9 @@ const repeatRequest = async () => {
 
 repeatRequest();
 
-onMounted(async () => {});
+onMounted(async () => {
+    console.log(await $fetch('/api/ctf_query'));
+});
 </script>
 
 <style lang="scss" scoped></style>
