@@ -1,5 +1,5 @@
 <template>
-    <div class="fixed w-full h-full bg-black flex overflow-hidden" id="full-overlay">
+    <div class="fixed w-full h-full bg-black flex overflow-hidden duration-1000" id="full-overlay">
         <img src="../assets/static/batman_left.png" class="absolute w-20 top-[50%] duration-1000 opacity-0" id="batman-left"/>
         <img src="../assets/static/batman_right.png" class="absolute w-20 top-[50%] duration-1000 opacity-0" id="batman-right"/>
         <button class="absolute top-4 right-4 text-2xl" @click="skip">Skip</button>
@@ -7,6 +7,7 @@
 </template>
 
 <script setup>
+//I was trying stuff lmao
 let velocity = 0;
 let opacity = 1;
 const ACCELERATION = 0.4;
@@ -14,6 +15,7 @@ const ACCELERATION = 0.4;
 const skip = () => {
     document.getElementById('batman-left').style.transitionDuration = "0ms";
     document.getElementById('batman-right').style.transitionDuration = "0ms";
+    document.getElementById('full-overlay').style.transitionDuration = "0ms";
     document.getElementById('batman-left').style.visibility = "hidden";
     document.getElementById('batman-right').style.visibility = "hidden";
     document.getElementById('full-overlay').style.visibility = "hidden";
@@ -27,7 +29,13 @@ onMounted(async() => {
     document.getElementById('batman-left').style.opacity = "1";
     document.getElementById('batman-right').style.opacity = "1";
     
-    await new Promise(r => setTimeout(r, 1500));
+    await new Promise(r => setTimeout(r, 3000));
+    document.getElementById('batman-left').style.opacity = "0";
+    document.getElementById('batman-right').style.opacity = "0";
+    document.getElementById('full-overlay').style.opacity = "0";
+    document.getElementById('full-overlay').style.visibility = "hidden";
+
+    /**
     let interval = setInterval(() => {
         marginchange += velocity;
         velocity += ACCELERATION;
@@ -44,7 +52,7 @@ onMounted(async() => {
             clearInterval(interval);
         }
     }, 16);
-    
+    */
 });
 </script>
 

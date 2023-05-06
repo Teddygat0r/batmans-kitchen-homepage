@@ -40,7 +40,12 @@ const repeatRequest = async () => {
 
 repeatRequest();
 
+<<<<<<< Updated upstream
 onMounted(async () => {});
+=======
+onMounted(async () => {
+});
+>>>>>>> Stashed changes
 </script>
 
 <style lang="scss" scoped></style>

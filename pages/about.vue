@@ -1,6 +1,6 @@
 <template>
     <div class="w-[80%] m-auto">
-        <div class="w-[50%] m-auto text-lg font-medium">
+        <div class="w-[50%] m-auto text-lg font-medium max-sm:w-[80%] max-sm:text-base max-sm:text-center">
             <br />
             <h1 class="font-bold text-2xl text-center mb-2">Our Goals</h1>
             <p>
@@ -63,12 +63,6 @@
             </p>
             <br />
             <br />
-            <p>
-                \( ﾟヮﾟ)/  \( ﾟヮﾟ)/  \( ﾟヮﾟ)/  \( ﾟヮﾟ)/  \( ﾟヮﾟ)/  \(
-                ﾟヮﾟ)/  \( ﾟヮﾟ)/  \( ﾟヮﾟ)/  \( ﾟヮﾟ)/  \( ﾟヮﾟ)/  \(
-                ﾟヮﾟ)/  \( ﾟヮﾟ)/  \( ﾟヮﾟ)/  \( ﾟヮﾟ)/  \( ﾟヮﾟ)/  \(
-                ﾟヮﾟ)/  \( ﾟヮﾟ)/  \( ﾟヮﾟ)/  \( ﾟヮﾟ)/  \( ﾟヮﾟ)/  \( ﾟヮﾟ)/  
-            </p>
         </div>
     </div>
 </template>
