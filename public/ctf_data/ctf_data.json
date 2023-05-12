@@ -1,0 +1,49 @@
+{
+    "ctfs": [
+        {
+            "ctf": "\u00e5ngstromCTF 2023",
+            "placement": "103",
+            "data": {
+                "date": "2023-04-26T23:59:59+00:00",
+                "logo": "https://ctftime.org/media/events/bruh_1.png",
+                "desc": "https://angstromctf.com/"
+            }
+        },
+        {
+            "ctf": "DamCTF 2023",
+            "placement": "20",
+            "data": {
+                "date": "2023-04-09T00:00:00+00:00",
+                "logo": "https://ctftime.org/media/events/dam-logo_1.png",
+                "desc": "https://damctf.xyz/"
+            }
+        },
+        {
+            "ctf": "LA CTF 2023",
+            "placement": "18",
+            "data": {
+                "date": "2023-02-12T22:00:00+00:00",
+                "logo": "https://ctftime.org/media/events/lactf-square-logo.png",
+                "desc": "https://lactf.uclaacm.com/"
+            }
+        },
+        {
+            "ctf": "KnightCTF 2023",
+            "placement": "281",
+            "data": {
+                "date": "2023-01-21T15:00:00+00:00",
+                "logo": "https://ctftime.org/media/events/kctf_logo_dark_bg.jpg",
+                "desc": "https://knightctf.com/"
+            }
+        },
+        {
+            "ctf": "IrisCTF 2023",
+            "placement": "14",
+            "data": {
+                "date": "2023-01-09T00:00:00+00:00",
+                "logo": "https://ctftime.org/media/events/irisctf.png",
+                "desc": "https://2023.irisc.tf/"
+            }
+        }
+    ]
+}

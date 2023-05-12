@@ -11,11 +11,11 @@
             </a>
         </div>
         <div class="flex gap-8 text-right">
+            <NuxtLink class="m-auto text-lg max-sm:hidden" to="/"
+                >Home</NuxtLink
+            >
             <NuxtLink class="m-auto text-lg max-sm:hidden" to="/blog"
                 >Blog</NuxtLink
-            >
-            <NuxtLink class="m-auto text-lg max-sm:hidden" to="#"
-                >Filler</NuxtLink
             >
             <NuxtLink class="m-auto text-lg max-sm:hidden" to="/about"
                 >What We Do</NuxtLink
@@ -24,20 +24,20 @@
                 class="hidden max-sm:block m-auto"
                 @click="openMenu" :class="menu ? 'ri-close-line':'ri-menu-line'"/>
             <div
-                class="absolute top-20 w-full h-full bg-black opacity-50 justify-end duration-500 overflow-hidden" :class="menu ? 'flex left-[0%]' : 'left-[200%]'">
-                <div class="relative w-[60%] p-4">
-                    <div>
-                        <NuxtLink class="m-auto text-lg" to="/blog"
+                class="absolute flex top-20 w-full h-full bg-black justify-end duration-200 overflow-hidden left-[0%]" :class="menu ? 'opacity-80 z-[10]' : 'opacity-0 z-[-10]'">
+                <div class="relative w-[60%] p-4 opacity-100 text-2xl text-white">
+                    <div class="p-6 mt-0 border-b border-slate-500 border-opacity-50">
+                        <NuxtLink class="m-auto" to="/" @click="openMenu"
+                            >Home</NuxtLink
+                        >
+                    </div>
+                    <div class="p-6">
+                        <NuxtLink class="m-auto" to="/blog"  @click="openMenu"
                             >Blog</NuxtLink
                         >
                     </div>
-                    <div>
-                        <NuxtLink class="m-auto text-lg" to="#"
-                            >Filler</NuxtLink
-                        >
-                    </div>
-                    <div>
-                        <NuxtLink class="m-auto text-lg" to="/about"
+                    <div class="p-6">
+                        <NuxtLink class="m-auto" to="/about" @click="openMenu"
                             >What We Do</NuxtLink
                         >
                     </div>
@@ -58,4 +58,6 @@ const openMenu = () => {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+
+</style>

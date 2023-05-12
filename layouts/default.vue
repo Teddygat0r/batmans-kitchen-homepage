@@ -1,11 +1,6 @@
 <template>
-<<<<<<< Updated upstream
-    <div class="w-full min-h-screen h-full">
-        <Header />
-=======
     <div class="w-full h-full overflow-x-hidden" :class="disableScroll ? 'overflow-y-hidden h-screen-border':''">
         <Header @disableScroll="disableScroll = !disableScroll"/>
->>>>>>> Stashed changes
         <slot />
         <Footer/>
     </div>
