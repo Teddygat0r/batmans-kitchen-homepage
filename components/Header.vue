@@ -31,12 +31,12 @@
                             >Home</NuxtLink
                         >
                     </div>
-                    <div class="p-6">
-                        <NuxtLink class="m-auto" to="/blog"  @click="openMenu"
+                    <div class="p-6 border-b border-slate-500 border-opacity-50">
+                        <NuxtLink class="m-auto " to="/blog"  @click="openMenu"
                             >Blog</NuxtLink
                         >
                     </div>
-                    <div class="p-6">
+                    <div class="p-6 border-b border-slate-500 border-opacity-50">
                         <NuxtLink class="m-auto" to="/about" @click="openMenu"
                             >What We Do</NuxtLink
                         >
