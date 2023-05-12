@@ -14,9 +14,15 @@
 definePageMeta({
     layout: "home-overlay",
 });
+
+useHead({
+    title: "Home | Batman's Kitchen",
+    meta: [{ name: "Homepage", content: "Homepage for Batman's Kitchen, University of Washington's CTF Team" }],
+});
+
 const posts = ref([]);
-const dt = $fetch("/ctf_data/ctf_data.json").then((data) => {
-    posts.value = (data.ctfs);
+$fetch("/ctf_data/ctf_data.json").then((data) => {
+    posts.value = data.ctfs;
 });
 </script>
 

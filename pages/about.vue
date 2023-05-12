@@ -67,6 +67,13 @@
     </div>
 </template>
 
-<script setup></script>
+<script setup>
+
+useHead({
+    title: "About | Batman's Kitchen",
+    meta: [{ name: "About", content: "About page, has team & CTF information." }],
+});
+
+</script>
 
 <style lang="scss" scoped></style>

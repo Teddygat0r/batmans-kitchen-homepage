@@ -29,7 +29,7 @@ onMounted(async() => {
     document.getElementById('batman-left').style.opacity = "1";
     document.getElementById('batman-right').style.opacity = "1";
     
-    await new Promise(r => setTimeout(r, 3000));
+    await new Promise(r => setTimeout(r, 2000));
     document.getElementById('batman-left').style.opacity = "0";
     document.getElementById('batman-right').style.opacity = "0";
     document.getElementById('full-overlay').style.opacity = "0";
